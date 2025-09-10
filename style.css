@@ -236,6 +236,57 @@ body {
 .contact-small a:hover {
     color: var(--accent);
 }
+/* Experience Section */
+.experience {
+    margin-top: 26px;
+    padding: 18px;
+    border-radius: 12px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.008));
+    border: 1px solid rgba(255, 255, 255, 0.02);
+}
+
+.experience h3 {
+    margin: 0 0 14px 0;
+    color: #fff;
+}
+
+.experience-item {
+    background: var(--card);
+    padding: 16px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    margin-bottom: 14px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.experience-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.4);
+}
+
+.experience-item h4 {
+    margin: 0 0 6px 0;
+    color: var(--accent);
+    font-size: 1.1rem;
+}
+
+.experience-item .company {
+    color: var(--muted);
+    font-weight: 500;
+}
+
+.exp-date {
+    font-size: 0.9rem;
+    color: var(--muted);
+    margin: 0 0 10px 0;
+}
+
+.exp-desc {
+    margin: 0;
+    color: var(--muted);
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
 
 /* Projects */
 .projects {
