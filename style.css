@@ -287,7 +287,60 @@ body {
     line-height: 1.6;
     font-size: 0.95rem;
 }
+.certifications {
+    margin-top: 26px;
+    padding: 18px;
+    border-radius: 12px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.008));
+    border: 1px solid rgba(255, 255, 255, 0.02);
+}
 
+.certifications h3 {
+    margin: 0 0 14px 0;
+    color: #fff;
+}
+
+.cert-item {
+    background: var(--card);
+    padding: 16px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    margin-bottom: 14px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cert-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.4);
+}
+
+.cert-item h4 {
+    margin: 0 0 6px 0;
+    color: var(--accent);
+    font-size: 1.1rem;
+}
+
+.cert-org {
+    font-size: 0.9rem;
+    color: var(--muted);
+    margin: 0 0 10px 0;
+}
+
+.cert-link {
+    display: inline-block;
+    padding: 8px 12px;
+    background: linear-gradient(90deg, var(--accent), #60c7ff);
+    color: #031024;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: background 0.2s ease;
+}
+
+.cert-link:hover {
+    background: linear-gradient(90deg, #60c7ff, var(--accent));
+}
 /* Projects */
 .projects {
     margin-top: 26px;
